@@ -91,6 +91,9 @@ const CarForm = ({ initial, submitLabel, onSubmit }) => {
                 )
               })}
             </div>
+            {options.filter(o => o.feature === feature && whyBlocked(o, picked)).map(o => (
+              <small key={o.id} className='blocked-note'>🔒 {o.name}: {whyBlocked(o, picked)}</small>
+            ))}
           </fieldset>
         ))}
 

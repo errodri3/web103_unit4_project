@@ -96,3 +96,4 @@
 .details { max-width: 700px; margin: 0 auto; }
 
 #root .options-card input[type=text] { color: white; }
+#root .blocked-note { display: block; color: #ffb3b3; margin-top: 6px; font-size: 0.8rem; }
