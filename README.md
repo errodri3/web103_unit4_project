@@ -30,28 +30,24 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [x] Selecting particular options prevents incompatible options from being selected even before form submission
+- [X] Selecting particular options prevents incompatible options from being selected even before form submission
 
 The following **additional** features are implemented:
 
-- [x] The car is drawn as an SVG, so the color, roof, wheels, and seats all change in the picture
-- [x] Locked options show a short note explaining why they don't work with your other picks
-- [x] A "Lock options" switch can be turned off to test the server-side error for impossible combos
-- [x] The server checks combos and works out the price itself, so bad data can't be saved even without the UI
-- [x] Delete asks you to click again to confirm, so you don't delete a car by accident
+- [X] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-Render dashboard and table contents (`SELECT * FROM custom_items;`):
-
-<img src='database.gif' title='Database Walkthrough' width='' alt='Database Walkthrough' />
+<img src='demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap and Playwright
+GIF created with Macbook Screenrecording
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
