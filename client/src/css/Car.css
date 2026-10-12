@@ -94,3 +94,5 @@
 #root .delete-btn.confirm { background: #d62828; color: white; }
 
 .details { max-width: 700px; margin: 0 auto; }
+
+#root .options-card input[type=text] { color: white; }
